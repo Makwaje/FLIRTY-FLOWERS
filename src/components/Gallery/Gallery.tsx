@@ -9,7 +9,7 @@ import gallery4 from "../../../public/gallery-4.jpeg";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import cn from "Classnames";
+import cn from "classnames";
 
 import "./styles.scss";
 import { type StaticImageData } from "next/image";

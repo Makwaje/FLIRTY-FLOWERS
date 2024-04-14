@@ -10,7 +10,7 @@ import SplitText from "../../utils/Split3.min.js";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import useOnScreen from "@/utils/useOnScreen";
 
-import cn from "Classnames";
+import cn from "classnames";
 
 function Footer() {
   const ref = useRef<any>(null);

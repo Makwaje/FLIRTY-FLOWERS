@@ -5,7 +5,7 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 import gsap from "gsap";
 
-import cn from "Classnames";
+import cn from "classnames";
 // @ts-ignore
 import SplitText from "../../utils/Split3.min.js";
 import useOnScreen from "../../utils/useOnScreen";

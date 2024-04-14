@@ -11,11 +11,11 @@ function Featured() {
     <section data-scroll-section className="featured-section">
       <div className="featured-row-layout">
         <h6>green</h6>
-        <Image src={photo1} alt="flowers" data-scroll />
+        <Image src={photo1} alt="flowers" quality={75} data-scroll />
       </div>
       <div className="featured-column-layout">
         <h6>lily</h6>
-        <Image src={photo2} alt="flowers" data-scroll />
+        <Image src={photo2} alt="flowers" quality={75} data-scroll />
       </div>
     </section>
   );

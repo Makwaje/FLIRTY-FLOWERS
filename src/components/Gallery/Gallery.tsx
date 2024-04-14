@@ -12,7 +12,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import cn from "classnames";
 
 import "./styles.scss";
-import { type StaticImageData } from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import useOnScreen from "@/utils/useOnScreen";
 
 const images = [

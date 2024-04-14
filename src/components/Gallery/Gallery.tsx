@@ -51,9 +51,6 @@ function Gallery() {
   useEffect(() => {
     // This does not seem to work without a settimeout
     setTimeout(() => {
-      // console.log(ref.current.offsetWidth);
-      // console.log(ref.current.clientWidth);
-      // console.log({ current: ref.current });
       let sections = gsap.utils.toArray(".gallery-item-wrapper");
 
       gsap.to(sections, {
